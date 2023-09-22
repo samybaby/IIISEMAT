@@ -376,7 +376,14 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+
 #hero h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+#hero h3 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 22px;
