@@ -82,7 +82,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: #213b52;
+  background: #1cacc4;
 }
 
 #header .logo h1 {
@@ -363,8 +363,8 @@ h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  background: #213b52;
-  background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+  background: #1cacc4;
+  //background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
 }
 
 #hero h1 {
