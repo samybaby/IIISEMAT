@@ -144,12 +144,12 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 24px;
   font-size: 18px;
-  color: #D2E0ED;
+  color: #ff5c2a;
   white-space: nowrap;
   transition: 0.3s;
-  
+  #D2E0ED
 }
 
 .navbar a i,
@@ -160,10 +160,8 @@ h6 {
 }
 
 .navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
 .navbar li:hover>a {
-  color: #ff5c2a;
+  color: #D2E0ED;
 }
 
 .navbar .getstarted,
@@ -238,6 +236,14 @@ h6 {
   left: 100%;
   visibility: visible;
 }
+
+/*Responsividade da fonte do menu para não quebrar em telas menores*/
+@media (max-width: 1024px){
+  .navbar a,.navbar a:focus{
+    font-size: 10px;
+  }
+}
+
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -588,7 +594,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #213b52;
+  color: #1cacc4;
 }
 
 .about .content p {
