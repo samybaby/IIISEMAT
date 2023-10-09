@@ -479,7 +479,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   font-family: "Poppins", sans-serif;
-  color: #213b52;
+  color: #1cacc4;
 }
 
 .section-title h2::before {
@@ -595,6 +595,9 @@ section {
   font-weight: bold;
 }
 
+.imagem-inscrições{
+  height: 500px;
+}
 
 /*--------------------------------------------------------------
 # About
@@ -613,7 +616,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
-  color: #213b52;
+  color: #1cacc4;
 }
 
 .about .content .icon-box h4 a {
@@ -628,7 +631,7 @@ section {
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #fdc134;
+  color: #1cacc4;
 }
 
 .about .content .icon-box p {
@@ -636,6 +639,7 @@ section {
   color: #848484;
   margin-left: 60px;
 }
+
 
 
 
@@ -698,10 +702,11 @@ section {
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
+  color: #1cacc4;
 }
 
 .services .card-title a {
-  color: #213b52;
+  color: #1cacc4;
   transition: 0.3s;
 }
 
@@ -743,7 +748,7 @@ section {
 .features .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #213b52;
+  color: #1cacc4;
 }
 
 .features .content ul {
@@ -1176,7 +1181,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(26, 46, 64, 0.85);
+  background: linear-gradient(to top, rgba(28, 172, 196, 1), transparent);
   z-index: 1;
 }
 
