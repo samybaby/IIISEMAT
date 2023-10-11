@@ -411,6 +411,22 @@ h6 {
   background: #fdc134;
 }
 
+#btnscription {
+  color: #213b52;
+  border-radius: 50px;
+  padding: 8px 35px 10px 35px;
+  border: 2px solid #fdc134;
+  transition: all ease-in-out 0.3s;
+  display: inline-block;
+  background: #fdc134;
+  font-weight: bold;
+}
+
+#btnscription:hover {
+  background: transparent;
+  color: ;
+}
+
 #hero .btn-get-started:hover {
   background: transparent;
   color: #fff;
@@ -595,7 +611,9 @@ section {
   font-weight: bold;
   color: #000;
 }
-
+.imagem-inscrições {
+  height: 450px;
+}
 
 
 
@@ -1176,7 +1194,7 @@ section {
   font-weight: 600;
   background-color: #1cacc4;
   color: #fff;
-  padding: 10px 100px;
+  padding: 10px 75px;
 }
 
 #schedule .nav-tabs a.active {
@@ -1247,6 +1265,9 @@ section {
   margin-bottom: 0;
 }
 
+#schedule .titles{
+  font-weight: bolder;
+}
 /*--------------------------------------------------------------
 # Responsive Media Queries da pagina de Programação
 --------------------------------------------------------------*/
