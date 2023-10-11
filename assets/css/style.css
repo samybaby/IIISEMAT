@@ -864,6 +864,15 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact p{
+  font-size: 20px;
+}
+
+#email {
+  font-weight: bold;
+}
+    
+
 .contact .info-box {
   color: #444444;
   text-align: center;
