@@ -106,13 +106,13 @@
     <!--==========================
       Schedule Section
     ============================-->
-    <section id="schedule" class="section-with-bg">
+   <!-- <section id="schedule" class="section-with-bg">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h2>Programação</h2>
           <p>Confira abaixo o cronograma do evento</p>
         </div>
-
+        
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Segunda-feira</a>
@@ -130,7 +130,7 @@
 
         <div class="tab-content row justify-content-center">
 
-          <!-- Schdule Day 1 -->
+ 
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
 
             <div class="row schedule-item">
@@ -235,88 +235,145 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>21h - 22h</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="assets/img/palestrante.jpg" alt="Tharso">
-                </div>
                 <h4>Minicurso 1, 4 e 5</h4>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          • Minicurso 1: Explorando a Abordagem Problematizada com uso do GeoGebra
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <h4>Prof. Lucas Medeiros e Melo e Prof. Victor Giraldo</h4>
+                        <p><span class="titles">Duração: </span>04 horas</p>
+                        <p><span class="titles">Resumo:</span> Neste minicurso, utilizamos o software GeoGebra para construir materiais de ensino de tópicos de Matemática que podem ser utilizados na Educação Básica e no Ensino Superior. Os tópicos são tratados de acordo com a perspectiva da Abordagem Problematizada. Os assuntos abordados são: taxas de variação; parábola como lugar geométrico e aspectos gráficos das funções quadráticas; problematizando hipóteses do Teorema do Valor Médio. Público alvo: Professores que ensinam Matemática e Licenciandos em Matemática.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          • Minicurso 4: Introdução à PI-teoria
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        <h4>Profª Lorena Mara Costa</h4>
+                        <p><span class="titles">Duração: </span>04 horas</p>
+                        <p><span class="titles">Resumo:</span> A teoria de  álgebras com identidades polinomiais  é uma  área da álgebra que investiga a estrutura algébrica de conjuntos com operações e relações satisfazendo certas equações polinomiais e é bem conhecida como PI-álgebras. Definimos por Id(A) o conjunto de todas as identidades polinomiais de uma PI-álgebra. Iniciaremos exemplificando algumas PI- álgebras que são muito importantes no PI-teoria e exibiremos, assim que possível, o seu respectivo conjunto finitamente gerado por identidades polinomiais multilineares. Em sequência, apresentaremos o conceito da sequência da n-ésima codimensão de uma PI-álgebra e suas principais propriedades. Por fim, será tratado o Teorema de Kemer, resultado esse de muita relevância na PI-teoria, que classifica a sequência da n-ésima codimensão de uma PI-álgebra de dimensão finita sobre um corpo de característica zero de crescimento quase polinomial.</p>                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          • Minicurso 5: A Taxonomia de Bloom no ensino de Matemática 
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        <h4>Profª Andressa C. de Moura Oliveira</h4>
+                        <p><span class="titles">Duração: </span>02 horas</p>
+                        <p><span class="titles">Resumo:</span> A Taxonomia de Bloom, de modo geral, visa categorizar o desenvolvimento dos domínios cognitivo, afetivo e psicomotor. Neste minicurso, vamos estudar o domínio cognitivo e suas seis principais categorias que são conhecimento, compreensão, aplicação, análise, síntese e avaliação. Faremos uma relação das seis categorias do domínio cognitivo com o desenvolvimento de objetivos instrucionais (educacionais) no ensino de Matemática, abordando objetos de conhecimento específicos e questões de provas como o ENADE e o PAEBES Tri.</p>                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- End Schdule Day 1 -->
 
-          <!-- Schdule Day 2 -->
+   
+
+    
           <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-2"><time>13h30 - 14:30</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/Participantes/1.jpg" alt="Brenden Legros">
+                  <img src="assets/img/palestrante.jpg" alt="Brenden Legros">
                 </div>
-                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                <p>Facere provident incidunt quos voluptas.</p>
+                <h4>Comunicação</h4>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-2"><time>14h30 - 15h30</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/Participantes/2.jpg" alt="Hubert Hirthe">
+                  <img src="assets/img/palestrante.jpg" alt="Hubert Hirthe">
                 </div>
-                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+                <h4>Palestra 1 </h4>
                 <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-2"><time>15h30 - 16h</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/Participantes/3.jpg" alt="Cole Emmerich">
+                  <img src="assets/img/palestrante.jpg" alt="Cole Emmerich">
                 </div>
-                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+                <h4>Lanche </h4>
                 <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-2"><time>16h - 17h</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/Participantes/4.jpg" alt="Jack Christiansen">
+                  <img src="assets/img/palestrante.jpg" alt="Jack Christiansen">
                 </div>
-                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+                <h4>Palestra 2</h4>
                 <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>03:00 PM</time></div>
+              <div class="col-md-2"><time>17h - 18h</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/Participantes/5.jpg" alt="Alejandrin Littel">
+                  <img src="assets/img/palestrante.jpg" alt="Alejandrin Littel">
                 </div>
-                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+                <h4>Intervalo </h4>
                 <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-2"><time>18h - 19h30</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/Participantes/6.jpg" alt="Willow Trantow">
+                  <img src="assets/img/palestrante.jpg" alt="Willow Trantow">
                 </div>
-                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+                <h4>Mesa redonda 1</h4>
                 <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
               </div>
             </div>
 
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>19h30 - 20h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/palestrante.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Coffe break</h4>
+                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+              </div>
+            </div>
           </div>
-          <!-- End Schdule Day 2 -->
 
-          <!-- Schdule Day 3 -->
+          
+
           <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
 
             <div class="row schedule-item">
@@ -386,7 +443,7 @@
             </div>
 
           </div>
-          <!-- End Schdule Day 2 -->
+         
 
         </div>
 
@@ -394,6 +451,97 @@
 
     </section>
   </main>
+
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+  
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  
+  <div class="card" aria-hidden="true">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title placeholder-glow">
+        <span class="placeholder col-6"></span>
+      </h5>
+      <p class="card-text placeholder-glow">
+        <span class="placeholder col-7"></span>
+        <span class="placeholder col-4"></span>
+        <span class="placeholder col-4"></span>
+        <span class="placeholder col-6"></span>
+        <span class="placeholder col-8"></span>
+      </p>
+      <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+    </div>
+  </div> -->
+
+  <section id="schedule" class="section-with-bg">
+    <div class="container wow fadeInUp">
+        <div class="section-header">
+            <h2>Programação</h2>
+            <p>Confira abaixo o cronograma do evento</p>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Segunda-feira</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Terça-feira</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Quarta-feira</a>
+            </li>
+        </ul>
+
+        <h3 class="sub-heading">Confira a programação dos 3 dias de evento da III SEMAT</h3>
+
+        <div class="tab-content row justify-content-center">
+
+            <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><time>16h - 18h</time></div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="assets/img/palestrante.jpg" alt="Tharso">
+                        </div>
+                        <h4>Credenciamento</h4>
+                    </div>
+                </div>
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><time>18h - 19h</time></div>
+                    <div class="col-md-10">
+                        <div class="speaker">
+                            <img src="assets/img/palestrante.jpg" alt="Tharso">
+                        </div>
+                        <h4>Abertura cultural <span>(18h30 - 19h)</span></h4>
+                    </div>
+                </div>
+
+                <!-- Restante do conteúdo do dia-1 aqui -->
+
+                <div class="row schedule-item">
+                    <div class="col-md-2"><time>20h - 21h</time></div>
+                    <div class="col-md-10">
+                        <h4>Minicurso 1, 4 e 5</h4>
+                        <div id="accordion-day-1">
+                            <!-- Conteúdo dos minicursos do dia-1 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Conteúdo para os outros dias (dia-2 e dia-3) aqui -->
+
+        </div>
+    </div>
+</section>
 
  <!-- ======= Footer ======= -->
  <footer id="footer">
