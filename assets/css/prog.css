@@ -354,7 +354,7 @@ body {
     width: 100%;
     padding: 0 0 0 0;
     background: #1cacc4;
-    //background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+    /* //background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
   }
   
   #hero h1 {

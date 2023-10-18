@@ -149,7 +149,7 @@ h6 {
   color: #fdc134;
   white-space: nowrap;
   transition: 0.3s;
-  #D2E0ED
+  
 }
 
 .navbar a i,
@@ -238,9 +238,9 @@ h6 {
 }
 
 /*Responsividade da fonte do menu para não quebrar em telas menores*/
-@media (max-width: 1024px){
+@media (max-width: 1260px){
   .navbar a,.navbar a:focus{
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
@@ -271,8 +271,8 @@ h6 {
   z-index: 9998;
   border: 0;
 }
-
-@media (max-width: 991px) {
+/* Menu hamburguer aparecer */
+@media (max-width: 1020px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -376,7 +376,7 @@ h6 {
   padding: 0 0 0 0;
   background: #1cacc4;
 
-  //background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+  /* //background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
 }
 
 #hero h1 {
@@ -424,7 +424,41 @@ h6 {
 
 #btnscription:hover {
   background: transparent;
-  color: ;
+  /* color: ; */
+}
+
+#btnscription2 {
+  color: white;
+  border-radius: 50px;
+  padding: 8px 35px 10px 35px;
+  border: 2px solid #dc3545;
+  transition: all ease-in-out 0.3s;
+  display: inline-block;
+  background: #dc3545;
+  font-weight: bold;
+}
+
+#btnscription2:hover {
+  background: transparent;
+  color:#dc3545;
+  /* color: ; */
+}
+
+#btnscription3 {
+  color: white;
+  border-radius: 50px;
+  padding: 8px 35px 10px 35px;
+  border: 2px solid #198754;
+  transition: all ease-in-out 0.3s;
+  display: inline-block;
+  background: #198754;
+  font-weight: bold;
+}
+
+#btnscription3:hover {
+  background: transparent;
+  color:#198754;
+  /* color: ; */
 }
 
 #hero .btn-get-started:hover {
@@ -1132,6 +1166,34 @@ section {
   }
 }
 
+/* FAQ - Programação */
+
+<<<<<<< HEAD
+=======
+.btndia p{
+  
+}
+>>>>>>> 919ae180a9e9a6a9e9916b203ef308924aea4bba
+
+.btndia a{
+  width: 150px;
+  border-radius: 50px;
+  background-color:  #1cacc4;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.btndia a:hover {
+  background-color: #fdc134; 
+  border: 0px;
+  color: #213b52;
+}
+
+
+
+#headingOne, #headingTwo, #headingThree{
+background-color: #FAFCFD
+}
 
 
 /* Sections Header - Altera o titulo do event da programação
