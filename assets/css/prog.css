@@ -21,6 +21,18 @@ body {
   h6 {
     font-family: "Raleway", sans-serif;
   }
+
+  @media (max-width: 767px) {
+    .d-flex {
+      flex-direction: column;
+      align-items: center; /* centralizar os botões */
+    }
+  
+    .btndia {
+      margin-bottom: 10px;
+    }
+  }
+  
   
   /*--------------------------------------------------------------
   # Back to top button
